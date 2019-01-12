@@ -19,6 +19,8 @@
  modified 9 Apr 2012
  by Tom Igoe
  */
+
+//TODO: es gibt noch was zu tun!
 // include the SD library:
 #include <SPI.h>
 #include <SD.h>
@@ -33,7 +35,7 @@ SdFile root;
 // Adafruit SD shields and modules: pin 10
 // Sparkfun SD shield: pin 8
 const int chipSelect = 4;
-
+// FIXME: adasad
 void setup()
 {
   // Open serial communications and wait for port to open:
@@ -56,7 +58,7 @@ void setup()
   } else {
     Serial.println("Wiring is correct and a card is present.");
   }
-
+// TODO: noch ein Todo
   // print the type of card
   Serial.print("\nCard type: ");
   switch (card.type()) {

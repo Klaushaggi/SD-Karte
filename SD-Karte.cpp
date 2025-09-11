@@ -44,7 +44,7 @@ void setup()
     ; // wait for serial port to connect. Needed for Leonardo only
   }
 
-
+  Serial.print("\nHallo Haggi!");
   Serial.print("\nInitializing SD card...");
 
   // we'll use the initialization code from the utility libraries
